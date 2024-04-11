@@ -54,8 +54,8 @@ body{
 @media only screen and (max-width: 540px) {
 
     #navbar{
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
      
     
     }
@@ -76,9 +76,16 @@ flex-wrap: wrap;
     .button{
         border: none;
       border-radius: 2%;
-      padding: 0px 0px;
+     
       margin: 2%;
+      padding: 15px 32px;
       background-color: rgb(115, 183, 177);  
       
+    }
+    .paragraph{
+        display: flex;
+flex-wrap: wrap;
+        border: solid none;
+        
     }
 }
