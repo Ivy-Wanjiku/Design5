@@ -1,0 +1,84 @@
+
+#navbar{
+    display: flex;
+    gap: 10%;
+
+}
+.nav-bar{
+    display: flex;
+    gap: 7%; 
+}
+#image1{
+    width: 20%;
+}
+.images2{
+    width: 12%;
+    object-fit: cover;
+    justify-content: center space-evenly;
+
+}
+h5{
+    text-align: center;
+}
+#footer{
+    background-color: rgb(179, 243, 232);
+}
+#book{
+    display: flex;
+   
+}
+.paragraph{
+    display: flex;
+    gap: 70%;
+    border: solid none;
+    
+}
+#lady{
+    width: 250%;
+
+}
+.images{
+    width: 12%;
+    justify-content: space-between;
+}
+body{
+    padding-left: 5%;
+}
+.button{
+    border: none;
+  border-radius: 2%;
+  padding: 15px 32px;
+  margin: 20%;
+  background-color: rgb(115, 183, 177);  
+}
+@media only screen and (max-width: 540px) {
+
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+     
+    
+    }
+    .nav-bar{
+        display: flex;
+flex-wrap: wrap;
+    }
+    
+    #lady{
+        width: 50%;
+    
+    }
+    #book{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .button{
+        border: none;
+      border-radius: 2%;
+      padding: 0px 0px;
+      margin: 2%;
+      background-color: rgb(115, 183, 177);  
+      
+    }
+}
