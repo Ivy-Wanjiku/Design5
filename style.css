@@ -1,91 +1,117 @@
-
 #navbar{
     display: flex;
-    gap: 10%;
+    gap: 7%;
+}
+#logo{
+    width: 50px;
+    height: 35px;
+    margin-left: -2%;
+}
+#content{
+    display: flex;
+}
+h6{
+margin-top: 5%;
 
 }
-.nav-bar{
-    display: flex;
-    gap: 7%; 
-}
-#image1{
-    width: 20%;
+#girl{
+width: 500px;
+height: 500px;
+border-radius: 50%;
+margin-left: -100%;
+
 }
 .images2{
-    width: 12%;
-    object-fit: cover;
-    justify-content: center space-evenly;
+    width: 10%;
+}
+.images{
+    margin-left: 8%;
+    width: 4%;
+    object-fit: contain;
+    
+    
+}
+#socialmedia{
+    display: flex;
+}
+#mainlogo{
+    display: flex;
+    gap: 5%;
+    
+}
+h1{
+    font-size: 400%;
+    
 
 }
-h5{
+h4{
+    font-size: 200%;
     text-align: center;
 }
 #footer{
     background-color: rgb(179, 243, 232);
-}
-#book{
-    display: flex;
-   
-}
-.paragraph{
-    display: flex;
-    gap: 70%;
-    border: solid none;
+    padding-bottom: 1%;
     
 }
-#lady{
-    width: 250%;
+label button{
+        background-color: rgb(113,182,176);
+        border-radius: 10%;
+        color:whitesmoke;
 
 }
-.images{
-    width: 12%;
-    justify-content: space-between;
+a{
+    text-decoration: none;
+}
+
+.place{
+    position: relative;
+    display: inline-block;
+    width: 170px;
 }
 body{
-    padding-left: 5%;
+    padding-left: 4% ;
+
 }
-.button{
+.place input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 40px;
+    padding: 15%;
+    width: 600px;
+}
+.place button{
+    position: absolute;
+    margin-left: 450px;
+    padding: 8%;
+    top: 25%;
+    width: 70%;
     border: none;
-  border-radius: 2%;
-  padding: 15px 32px;
-  margin: 20%;
-  background-color: rgb(115, 183, 177);  
+    background-color: rgb(113,182,176);
+    border-radius: 10%;
+    color: white;
 }
 @media only screen and (max-width: 540px) {
 
     #navbar{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-     
-    
-    }
-    .nav-bar{
-        display: flex;
-flex-wrap: wrap;
+        
     }
     
-    #lady{
+    #girl{
         width: 50%;
     
     }
-    #book{
-        display: flex;
-        flex-wrap: wrap;
-       
+    #content{
+        display: grid;
+        margin-top: 20%;
     }
-    .button{
-        border: none;
-      border-radius: 2%;
-     
-      margin: 2%;
-      padding: 15px 32px;
-      background-color: rgb(115, 183, 177);  
-      
-    }
-    .paragraph{
+    #mainlogo{
         display: flex;
-flex-wrap: wrap;
-        border: solid none;
+        gap: 5%;
         
+    }
+    .place{
+        display: inline-block;
+        width: -1%;
     }
 }
